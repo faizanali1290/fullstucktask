@@ -1,0 +1,123 @@
+.sidebar {
+  position: fixed;
+  width: 190px;
+  height: 100vh;
+  left: 0px;
+  background: #ffffff;
+  padding-left: 23px;
+  overflow-y: auto;
+  z-index: 40;
+  padding-bottom: 3rem;
+  top: 78px;
+  z-index: 233233 !important;
+}
+.sidebar li a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #5f6165;
+  line-height: 40px;
+  padding: 10px 0 0 0;
+}
+.sidebar li a h2 {
+  font-size: 15px;
+}
+.sidebar li {
+  width: fit-content;
+}
+.sidebar li a :first-child {
+  font-size: 18px;
+  width: 20px;
+  font-weight: lighter;
+  color: #5f6165;
+}
+.sidebar ul li a :last-child {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+#logo {
+  display: flex;
+  width: 26.91px;
+  height: 26.85px;
+  background: #a162f7;
+  border-radius: 6px;
+  align-items: center;
+  padding: 6px 5px;
+  gap: 10px;
+}
+#logowraper {
+  width: 206px;
+  background: #ffffff;
+  position: fixed;
+  margin-bottom: 2rem;
+  width: 206px;
+  height: 34px;
+  padding-left: 23px;
+  height: 78px;
+  display: flex;
+  align-items: center;
+  top: 0;
+  z-index: 233233 !important;
+}
+
+.setting {
+  margin-top: 30px;
+}
+.logout {
+  padding: 3rem 0;
+}
+@media screen and (max-width: 768px) {
+  #close {
+    margin-top: 26px;
+    display: inline;
+  }
+  .logout {
+    margin-bottom: 10rem;
+  }
+  .setting {
+    margin-top: 30px !important;
+  }
+  #close {
+    font-size: 20px !important;
+    position: absolute;
+    color: black;
+    top: 4px;
+    font-weight: 500;
+    transition: all 0.5s;
+  }
+  #show {
+    font-size: 20px !important;
+    position: absolute;
+    color: black;
+    font-weight: 500;
+    transition: left 0.9s;
+    position: absolute;
+    top: 4px;
+    top: 22rem;
+    left: -110%;
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .sidebar {
+    top: 75px;
+  }
+
+  #logo {
+    left: 2rem;
+    top: 27px;
+    position: fixed;
+  }
+  #close {
+    margin-top: 2px;
+  }
+  #logowraper {
+    top: 150px;
+    background-color: unset;
+  }
+  .logout {
+    margin-bottom: 76px;
+  }
+}

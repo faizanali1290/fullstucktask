@@ -1,0 +1,493 @@
+.servicesStation {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.servicesStation > :first-child {
+  color: #242731;
+  font-weight: 700;
+  font-size: 2.4rem;
+}
+.servicesStation ul {
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+}
+.servicesStation ul li {
+  display: inline-block;
+  width: 50px;
+  height: 70px;
+  padding: 20px 13px;
+  background: #ffffff;
+  border-radius: 4px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ServiceStationpurple {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  background: #ff6370 !important;
+  box-shadow: 0px 8px 24px rgba(255, 126, 134, 0.3);
+  border-radius: 4px;
+}
+.emptyCircle {
+  border: 0.5px solid #72767c;
+  width: 12px;
+  height: 12px;
+  border-radius: 100%;
+}
+
+.ServiceStationBotom {
+  width: 300px;
+  height: 20px;
+}
+.emptyCircle {
+  margin-right: 3px;
+  margin-top: 4px;
+}
+.ready {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #72767c;
+}
+.ServiceStationbootomWraper {
+  width: 380px;
+
+  margin-top: 20px;
+  margin-bottom: 3px;
+}
+.emptyCircle1 {
+  border: none;
+  width: 12px;
+  height: 12px;
+  border-radius: 100%;
+  margin-right: 3px;
+  margin-top: 4px;
+}
+
+.ring {
+  position: relative;
+}
+
+.order {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 34px;
+  gap: 10px;
+
+  width: 216px;
+  height: 268px;
+
+  background: #ffffff;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+  color: #242731;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+}
+.orderRing {
+  position: absolute;
+  width: 19px;
+  height: 19px;
+  border-radius: 100%;
+  background-color: #ffff;
+}
+.ring1 {
+  border: 4px solid #70cf97;
+  left: 11px;
+  top: 17px;
+}
+.ring2 {
+  border: 4px solid #a162f7;
+  left: 114px;
+  top: 18px;
+}
+.ring3 {
+  border: 4px solid #ff6370;
+  left: 20px;
+  bottom: 11px;
+}
+.halfcircle {
+  width: 148px;
+  height: 148px;
+  border-top: 8px solid #a162f7;
+  border-left: 8px solid #ff6370;
+  border-bottom: 8px solid #70cf97;
+  border-right: 8px solid #70cf97;
+}
+.roundecircle1 {
+  border-radius: 100%;
+}
+.servicesHeading {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: #5f6165;
+  width: 50px;
+  position: absolute;
+  top: 120px !important;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.orderhour {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+  text-align: center;
+
+  color: #a162f7;
+  position: absolute;
+  top: 160px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.BreakFluid > :first-child {
+  width: 16px;
+  height: 16px;
+  border-radius: 100%;
+  margin-right: 4px;
+  margin-top: 4px;
+}
+.BreakFluid > h2 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color: #5f6165;
+}
+.BreakFluidCard > span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px 14px;
+  gap: 10px;
+  width: 64px;
+  height: 30px;
+  background: rgba(161, 98, 247, 0.1);
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color: #a162f7;
+}
+.BreakFluidCard {
+  display: flex;
+  padding: 15px 14px;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+  width: 354px;
+  height: 60px;
+  background: #ffffff;
+  border-radius: 10px;
+  margin-bottom: 8px;
+  margin-left: 10px;
+}
+.addServies {
+  width: 354px;
+  height: 56px;
+  background: #efebf1;
+  border: 1px dashed #d8d2e7;
+  border-radius: 8px;
+  margin-left: 10px;
+}
+.paybuttom {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 14px 49px;
+  gap: 10px;
+
+  width: 590px;
+  height: 59px;
+
+  background: #a162f7;
+  border-radius: 10px;
+  border: none;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+
+  color: #ffffff;
+}
+.orderCardWrapper {
+  width: 590px;
+}
+
+/* services required */
+.servicesCardHeading {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+  color: #242731;
+  position: relative;
+  left: -24px;
+  align-self: self-start;
+  top: -50px;
+}
+.serviceCard h2 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color: #5f6165;
+
+  margin-left: 10px;
+}
+.ServiceIconCover {
+  width: 48px;
+  height: 48px;
+  background: rgba(112, 207, 151, 0.1);
+  color: #70cf97;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  margin-top: 30px;
+}
+.ServiceIconCover > :first-child {
+  font-size: 30px;
+}
+.serviceCard .Serviceprice {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  color: #242731;
+}
+.serviceCard p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #5f6165;
+}
+.ServiceCardWrapper {
+  background-color: red;
+  width: 41.1rem;
+  display: flex;
+  justify-content: center;
+  background: #ffffff;
+  border-radius: 14px;
+  justify-content: center;
+  padding: 0 30px;
+  margin-top: 50px;
+}
+.serviceCard {
+  display: flex;
+  flex-direction: column;
+}
+.priceInfo {
+  margin-left: 58px;
+
+  margin-top: -14px;
+}
+.verticalline {
+  width: 3px;
+  height: 40px;
+  background: #70cf97;
+  border-radius: 4px;
+  margin-left: 23px;
+}
+.schedule .upgrading {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+
+  color: #242731;
+}
+.time {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #72767c;
+  margin: 7px 0;
+}
+.schedule input {
+  accent-color: #a162f7;
+  width: 3rem;
+  height: 3rem;
+  margin-right: 2.3rem;
+}
+.ServicesSchedule > h2 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+  color: #242731;
+  margin-top: 3rem;
+}
+.Services {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.ServiesBotomWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.ServiceBootomCard {
+  display: flex;
+  flex-direction: column;
+  min-width: 250px;
+  max-width: auto;
+  width: auto;
+  padding: 4rem 2rem;
+  height: 210px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: #ffff;
+}
+.ServiceBootomCard img {
+  margin-bottom: 5px;
+  width: 100px;
+  object-fit: contain;
+}
+.ServiceBootomCard h2 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color: #000000;
+}
+h3,
+h4 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #808191;
+}
+
+.ServiceProgresLine1 {
+  position: relative;
+  width: 100%;
+  height: 10px;
+  left: 0px;
+  background: #f5f5f5;
+  border-radius: 8px;
+  bottom: -25px;
+  border-radius: 8px;
+  z-index: 3;
+  align-self: self-start;
+}
+.ServiceProgresLine2 {
+  position: relative;
+  width: 100%;
+  height: 10px;
+  left: 0px;
+  background: #f5f5f5;
+  border-radius: 8px;
+  bottom: -15px;
+  z-index: 2;
+}
+
+@media screen and (max-width: 1100px) {
+  .servicesCardHeading {
+    position: static;
+    justify-content: center;
+    align-self: center;
+    margin-top: 30px;
+  }
+  .Services {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .servicesStation ul {
+    width: auto;
+    margin: 0;
+  }
+.ServiceStationbootomWraper {
+width: auto;
+}
+  .servicesStation {
+    width: 100%;
+    margin: 0;
+  }
+  .addServies,
+  .paybuttom {
+    width: 100%;
+    margin: 0%;
+  }
+  .Services {
+    width: auto;
+  }
+
+  .orderCardWrapper {
+    width: auto;
+    margin: 0;
+    padding: 0%;
+    width: 100%;
+  }
+  .ServiceStationBotom {
+    width: 100%;
+  }
+  .servicesStation ul li {
+    width: auto;
+    padding: 7px 5px;
+    width: 30px;
+
+    height: auto;
+  }
+  .ServiceCardWrapper {
+    width: auto;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .BreakFluidCard {
+    width: 100%;
+  }
+  .servicesStation ul li {
+    padding: 0;
+    font-size: 16px;
+  }
+  .servicesStation ul {
+    gap: 3px;
+  }
+  .ServiceCardWrapper {
+    width: auto;
+    margin: auto;
+  }
+  .servicesStation {
+    justify-content: center;
+    align-items: center;
+  }
+  .ServiceCardWrapper {
+    display: flex;
+    /* width: 100%; */
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    display: block !important;
+    padding: 0;
+  }
+  #servicesCard1 {
+    margin-top: 20px;
+  }
+  #breakFluifChange{
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .ServiceCardWrapper {
+    margin-left: 35%;
+    padding: 0 3rem;
+    height: auto;
+  }
+  .ServiesBotomWrapper {
+    margin-left: 35%;
+  }
+}

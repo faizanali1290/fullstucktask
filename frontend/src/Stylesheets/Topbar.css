@@ -1,0 +1,85 @@
+.topbar {
+  display: flex;
+  padding: 15px 31px;
+  gap: 10px;
+  height: 78px;
+  background: #ffffff;
+  position: fixed !important;
+  z-index: 1000 !important;
+  top: 0;
+  width: calc(100% - 215px);
+  left: 200px;
+}
+.topbar .serachbar input {
+  height: auto;
+  width: 100%;
+  padding: 12px 14px;
+  padding-left: 50px;
+  border: none;
+  border-radius: 15px;
+  background: #f5f4f6;
+  color: rgba(239, 144, 17, 1);
+}
+.serachbar {
+  position: relative;
+}
+.topbar .serachbar img {
+  position: absolute;
+  top: 50%;
+  transform: translatey(-50%);
+  left: 2rem;
+}
+.userprofile {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.userprofile .alert {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+.userprofile a img {
+  width: 40px;
+  height: 40px;
+  border-radius: 9999px;
+  object-fit: cover;
+  margin-left: 2rem;
+}
+@media screen and (max-width: 578px) {
+  .topbar {
+    padding-bottom: 10rem;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .topbar {
+    width: 100%;
+    left: 0;
+    top: 0;
+    padding-bottom: 0rem;
+  }
+  .topbar .serachbar input {
+    display: none;
+  }
+  #TopBarSerachIcon {
+    position: relative;
+    top: 30px !important;
+    left: 118px;
+  }
+  #showInput {
+    display: block !important;
+    position: fixed;
+    z-index: 9879809238209383209823987238972389 !important;
+    width: 100vw;
+    left: 0;
+    top: 70px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .userprofile .alert {
+    display: none;
+  }
+}

@@ -1,0 +1,29 @@
+/* .content-wrapper {
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 200px !important;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 0 2rem;
+  z-index: -909098098;
+  background: #f5f5f5;
+  width: calc(100% - 200px);
+  top: 7rem;
+  
+} 
+
+ @media screen and (max-width: 768px) {
+  .content-wrapper {
+    position: relative;
+    margin: 0;
+    top: 100px;
+    width: 100%;
+    z-index: -23423094823098;
+  }
+}
+@media screen and (max-width: 575px) {
+  .content-wrapper {
+    top: 200px;
+  }
+}  */

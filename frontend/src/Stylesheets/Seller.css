@@ -1,0 +1,268 @@
+.sellCar {
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 39px;
+
+  color: #242731;
+}
+.sellCar > h2 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 39px;
+  color: #242731;
+  padding: 0 3rem;
+}
+
+.sellercar {
+  object-fit: contain;
+  width: 59%;
+}
+
+@media screen and (max-width: 667px) {
+  .sellerChart {
+    width: 100vw !important;
+  }
+  .sellercar {
+    object-fit: contain;
+    width: 100%;
+  }
+  #sellerlinechart {
+    width: 95% !important;
+    margin: auto;
+  }
+  .offerdetail1 {
+    flex-direction: column;
+    gap: 50px !important;
+  }
+}
+.Selleroffer {
+  padding: 0 3rem;
+}
+.Selleroffer > h2 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 39px;
+  color: #242731;
+  margin-bottom: 2rem;
+}
+.SellerSelect > select {
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #a162f7;
+}
+
+#selerSelect1 {
+  padding: 10px 20px;
+  gap: 23px;
+
+  width: 120px;
+  height: 36px;
+
+  background: #ffffff;
+  box-shadow: 0px 1px 2px rgba(154, 154, 154, 0.25);
+  border-radius: 22px;
+}
+
+/* offer section bottom */
+
+#selerSelect2 {
+  width: 137px;
+  height: 36px;
+  margin-left: 2rem;
+
+  background: #ffffff;
+  box-shadow: 0px 1px 2px rgba(154, 154, 154, 0.25);
+  border-radius: 22px;
+}
+.sellerDetail :first-child > h2 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color: #242731;
+  margin-bottom: 12px;
+}
+
+.sellerDetail :first-child > p > span {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+
+  color: #ff6464;
+  margin-right: 8px;
+}
+.sellerDetail :first-child > p {
+  font-weight: inherit;
+  font-size: 12px;
+  line-height: 16px;
+  color: #a4a5a6;
+  margin-top: 4px;
+}
+.sellerDetail > p {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #72767c;
+  margin-top: 4px;
+}
+.sellerDetail > .arrow {
+  width: 48px;
+  height: 20px;
+  box-shadow: 0px 1px 2px rgba(252, 189, 189, 0.25);
+  background: #ff6471 !important;
+  border-radius: 10px;
+  padding: 0px 14px;
+  border: none;
+  color: #ffff;
+  margin-top: 4px;
+}
+
+.sellerProgressWraper {
+  width: 120px !important;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.sellerProgressWraper :nth-child(2) {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  color: #242731;
+  position: absolute;
+  top: 48px;
+}
+.sellerProgressWraper :nth-child(3) {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 13px;
+
+  color: #70cf97;
+  position: absolute;
+  bottom: 28px;
+}
+.sellerProgressWraper :nth-child(4) {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+
+  color: #72767c;
+}
+/* roundd multiple circle */
+.progressCirculars {
+  width: 150px !important;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  transform: rotate(150deg);
+}
+.sellerCircle {
+  position: absolute;
+}
+.progressCirculars > :first-child {
+  z-index: 1;
+  transform: rotate(0.68deg);
+  width: 65px;
+  top: 22px;
+  position: absolute;
+}
+.progressCirculars > :nth-child(2) {
+  z-index: 2;
+  width: 100px;
+  position: absolute;
+  transform: rotate(5deg);
+}
+.progressCirculars > :nth-child(3) {
+  position: absolute;
+  z-index: 3;
+  width: 130px;
+  top: -19px;
+}
+.sellerModalIcon {
+  color: #407ef9;
+}
+
+.SellerModal1 h2 {
+  color: #407ef9;
+  font-weight: 700;
+  font-size: 20px;
+}
+.SellerModal1 p {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #808191;
+}
+.offerdetail1 {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5rem;
+  padding: 0 3rem;
+  justify-content: center;
+}
+.SellerModal2 :first-child {
+  color: #ff6370;
+}
+.SellerModal2 h2 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color: #ff6370;
+}
+.SellerModal2 p {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #808191;
+}
+.SellerModal3 :first-child {
+  color: #a162f7;
+}
+.SellerModal3 h2 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+
+  color: #a162f7;
+}
+.SellerModal3 p {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+
+  color: #808191;
+}
+
+.offerSection .background {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+}
+.offerSection .timeleave {
+  background: rgba(64, 126, 249, 0.1);
+}
+.offerSection .arrow {
+  background: rgba(255, 126, 134, 0.1);
+}
+.offerSection .dollar {
+  background: rgba(161, 98, 247, 0.1);
+}
+
+.offerSection {
+  background: #ffffff;
+  padding: 23px 29px;
+  border-radius: 10px;
+}
+
+.progressCirculars {
+  margin-top: 9rem;
+}

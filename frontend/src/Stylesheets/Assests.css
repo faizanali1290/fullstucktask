@@ -1,0 +1,254 @@
+.Assests {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f5f5f5;
+  align-items: center;
+  overflow: hidden;
+  padding-bottom: 20rem;
+}
+.assestHeading {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 39px;
+  margin-left: 2rem;
+
+  color: #242731;
+}
+.Assests .topcar {
+  background: #438ffe;
+  box-shadow: 0px 20px 101px rgba(148, 148, 148, 0.25);
+  border-radius: 14px;
+  width: 361px;
+  height: 674px;
+}
+.Assests > h2 {
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 3.9rem;
+  color: #242731;
+}
+.topcar h2 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+
+  color: #c6dcfc;
+}
+
+.topcar h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color: #ffffff;
+}
+
+.topcar .topcarheading {
+  padding: 3rem 2rem 0rem;
+}
+
+.topcar > img {
+  margin-top: 4rem;
+  margin-left: 2rem;
+  /* width: 40%; */
+}
+
+.noties {
+  padding: 20px 18px;
+  gap: 10px;
+  background-color: #ffffff;
+  width: 301px;
+  height: 314px;
+  flex-wrap: wrap;
+}
+
+.noties .asssestCompletedBtn {
+  padding: 8px;
+  color: #ffffff;
+  font-size: 14px;
+  background: #70cf97;
+  top: 45px;
+  border-radius: 4px;
+  font-weight: 700;
+  outline: none;
+  border: none;
+  margin-bottom: 2rem;
+}
+.noties .icon {
+  color: #242731;
+  width: 20.69px;
+  height: 20.67px;
+}
+.noties h2 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 17px;
+
+  color: #000000;
+}
+.noties p {
+  color: #72767c;
+  font-size: 16px;
+  margin: 5px 0;
+}
+.imgcover {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  display: grid;
+
+  place-content: center;
+  background: #ffffff;
+  box-shadow: 0px 2px 4px rgba(147, 144, 144, 0.2);
+  /* margin-top: -4px; */
+}
+
+.sensors {
+  padding: 20px 18px;
+  gap: 10px;
+  background-color: #ffffff;
+  width: 301px;
+  height: 300px;
+  margin-bottom: 10px;
+}
+
+.sensors input {
+  accent-color: #ff6370 !important;
+  margin-right: 7px;
+}
+
+.sensors select {
+  border: none;
+  outline: none;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #72767c;
+}
+.sensors label {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 17px;
+  color: #242731;
+}
+.sensors label span {
+  color: #72767c;
+}
+.assestSelection {
+  margin-top: 2.5rem;
+}
+
+.assest1:checked ~ label {
+  color: #ff6370;
+}
+.assest1:checked ~ .gaph :first-child {
+  z-index: 990;
+}
+.gaph {
+  position: relative;
+  left: 5rem;
+}
+.gaph img {
+  position: absolute;
+}
+
+.sensors :first-child h2 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  color: #000000;
+}
+.assestcheck {
+  display: flex;
+  justify-content: space-between;
+}
+.selectall {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  padding: 10px 12px;
+  background: #ff6370;
+  border-radius: 5px;
+  background-color: #ff6370;
+  border: none;
+  margin-top: 18px;
+}
+
+@media screen and (max-width: 567px) {
+  .topcar .topcarheading {
+    padding: 3rem 6rem 0rem;
+  }
+  .Assests .topcar {
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .Assests {
+    flex-direction: column;
+  }
+  #assestCard {
+    margin-top: 3rem;
+    justify-content: start;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .topcar {
+    width: auto;
+    height: auto;
+  }
+  .topCarParent {
+    width: 100%;
+    padding: 0;
+    height: auto;
+    gap: 0;
+  }
+  #assestCard {
+    width: auto;
+    padding: 0;
+    gap: 0;
+    margin-left: 3rem;
+  }
+  .topcar .topcarheading {
+    padding: 3rem 3rem 0rem;
+  }
+  .topcar {
+    width: 100% !important;
+    height: auto;
+    margin-top: 3rem !important;
+  }
+  .topcar > img {
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .Assests {
+    flex-direction: column;
+  }
+
+  #assstlinechart {
+    width: 90% !important;
+    padding: 0 3rem 0 0 !important;
+    margin-top: 70px;
+    margin-left: 4rem;
+  }
+}
+
+.assestButton {
+  padding: 10px;
+  gap: 10px;
+
+  width: max-content;
+  height: 21px;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 15px;
+  background: #eceef0;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+
+}

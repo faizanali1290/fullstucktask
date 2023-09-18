@@ -1,0 +1,21 @@
+.notification_patent p {
+  color: rgba(36, 39, 49, 1);
+  font-size: 3rem;
+}
+.notification_patent .icon {
+  font-size: 4rem;
+}
+.notification_patent {
+  display: flex;
+  margin-top: 4rem;
+  gap: 2rem;
+}
+
+@media screen and (max-width: 500px) {
+  .notification_patent {
+    flex-direction: column;
+  }
+  .notification_patent p{
+  font-size: 18px;
+  }
+}
