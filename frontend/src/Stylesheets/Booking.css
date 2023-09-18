@@ -1,0 +1,122 @@
+/* topbar */
+.BookingTOpBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+  gap: 4rem;
+}
+.Bookingtopbar > h2 {
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 39px;
+  color: #242731;
+  padding: 0 3rem;
+}
+.select {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.select #bookingselect1 {
+  width: 122px;
+  height: 36px;
+
+  background: #ffffff;
+  border-radius: 22.5px;
+  padding: 0 10px;
+
+  width: 122px;
+  height: 36px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  border: none;
+
+  color: #5f6165;
+  margin-right: 10px;
+}
+.select #bookingselect2 {
+  width: 143px;
+  height: 36px;
+  background: #ffffff;
+  border-radius: 22.5px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #5f6165;
+  font-family: "Poppins";
+  border: none;
+}
+
+.bookingGrid {
+  width: 44px !important;
+  height: 44px !important;
+  background: #ffffff;
+  box-shadow: 0px 4px 8px rgba(53, 53, 53, 0.1);
+  border-radius: 30px;
+  display: block;
+  font-size: 20px !important;
+  margin-right: 10px;
+}
+/* card */
+.bookingCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 24px;
+  gap: 10px;
+
+  width: 325px;
+  height: 267px;
+
+  background: #ffffff;
+  border-radius: 16px;
+}
+.bookingCard .cardTop h2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+
+  /* primary/dark 1 */
+
+  color: #242731;
+}
+.bookingCard > h3 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+
+  color: #72767c;
+}
+.bookingCard .like {
+  object-fit: contain;
+}
+
+.cardinfo {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+
+  color: #72767c;
+  margin-left: 4px;
+}
+.price {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  color: #242731;
+}
+.price span {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #72767c;
+}
+/*  filter card*/
